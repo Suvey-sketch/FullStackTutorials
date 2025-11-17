@@ -1,0 +1,90 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elements selector */
+h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+div {
+    margin-top: 20px;
+}
+
+/* class selector */
+.section-box {
+    border: 2px solid #ccc;
+    background: #fafafa;
+    padding: 1px;
+    margin: 1px 0;
+    border-radius: 1px;
+}
+
+/* id selector */
+#navMenu {
+    background: #333;
+    padding: 10px;
+}
+
+/* attribute selector */
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 250px;
+}
+
+/* header styling */
+header {
+    background: #6a4c93;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* custom bullets for ul */
+ul li {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+/* custom numbers for ol */
+ol li {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+/* footer*/
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
